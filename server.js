@@ -3,8 +3,7 @@ const path = require('path')
 
 const app = express()
 
-if (process.env.NODE_ENV === 'production') {
-
+if(process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'))
 
   app.get('*', (req, res) => {
@@ -12,6 +11,6 @@ if (process.env.NODE_ENV === 'production') {
   })
 }
 
-const PORT = process.env.PORT || 5000
+const PORT = 5000
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`))
