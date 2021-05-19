@@ -4,7 +4,7 @@ const Demo = () => {
 
   return (
     <div>
-      <h1>Demo Component</h1>
+      <h1>Demo Component Success</h1>
     </div>
   )
 }
