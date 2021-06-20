@@ -1,6 +1,6 @@
 # Basic boilerplate code for the beginning of a MERN application
 
-** Installation **
+**Installation**
 
 1. Download .zip and extract, or pull repository
 2. In command prompt, cd into react_boilerplate-main
